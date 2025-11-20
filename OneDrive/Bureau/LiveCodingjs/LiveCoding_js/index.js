@@ -509,6 +509,7 @@ function groupBookingsByStatus() {
    
 }
 
+
 // CHALLENGE 8: Find the most expensive booking
 // RESTRICTION use Only for, while, and standard logic.
 function findMostExpensiveBooking() {
@@ -553,6 +554,11 @@ function updateBookingStatus(bookingId, newStatus) {
 function calculateRevenueByDestination() {
     // We want an object that shows total revenue for each destination:
     // { 'Moon Base Alpha': 195000, 'Mars Colony One': 250000 }
+    let revenueDestination
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        
+    }
    
 
 }
